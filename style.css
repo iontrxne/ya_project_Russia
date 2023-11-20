@@ -59,7 +59,6 @@ header {
 }
 
 .container__main {
-  min-width: 984px;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -138,4 +137,16 @@ h3 {
   font-size: 13px;
   line-height: 157.33%;
   margin-bottom: 92px;
+}
+
+.galery {
+  min-width: 1184px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 92px;
+}
+
+.photo {
+  width: 284px; 
 }
