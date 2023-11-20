@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+
+
+body {
+  background-color: #2A2C2F;
+  color: #FFF;
+  font-family: Inter;
+}
+
+.container__header {
+  min-width: 1184px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 48px 0;
+}
+
+.main-logo {
+  width: 176.575px;
+}
+
+.change_lang {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.change_lang a {
+  font-size: 24px;
+}
+
+#Ru {
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+}
+
+.container__main {
+  min-width: 984px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__main > article {
+  max-width: 984px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  font-size: 96px;
+  line-height: 96.818%;
+  width: 782px;
+  margin-bottom: 48px;
+}
+
+.subtitle {
+  width: 583px;
+  margin-bottom: 78px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title_signature {
+  align-self: flex-start;
+  padding-top: 11px;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 80px 0 45px 0;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 108.92%;
+}
+
+.info_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.info_content {
+  width: 683px;
+  font-size: 14px;
+  line-height: 169.432%;
+  margin-bottom: 35px;
+}
+
+.info_author {
+  display: flex;
+  flex-direction: column;
+  width: 283px;
+  margin-left: 18px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 157.33%;
+}
+
+.info span {
+  font-weight: 700;
+}
+
+.info_stats {
+  font-size: 13px;
+  line-height: 157.33%;
+  margin-bottom: 92px;
+}
