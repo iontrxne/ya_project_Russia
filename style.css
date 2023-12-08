@@ -80,7 +80,6 @@ header {
 
 .title {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -114,6 +113,16 @@ h3 {
   font-size: 54px;
   font-weight: 900;
   line-height: 108.92%;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 157.33%; /* 37.759px */
+}
+
+.info h5 {
+  margin-bottom: 35px;
 }
 
 .info_container {
@@ -217,4 +226,139 @@ h2 {
 .objects {
   display: flex;
   flex-direction: column;
+}
+
+.media_content {
+  min-width: 1184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media_content h2 {
+  text-align: center;
+  line-height: 108.92%;
+  margin:30px 0 48px 0;
+  width: 800px;
+}
+
+.media_content h5 {
+  text-align: center;
+  line-height: 145.227%;
+  margin: 0 0 72px 0;
+  width: 640px;
+}
+
+.videos {
+  display: flex;
+  gap: 18px;
+}
+
+.video {
+  width: 583px;
+  height: 323px;
+  border-radius: 5px;
+  margin-bottom: 102px;
+}
+
+.bg-video {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#icon_play {
+  transition: opacity 0.25s ease;
+  margin-bottom: 87px;
+}
+
+#icon_play:active {
+  opacity: 0.5;
+}
+
+.video-title_content {
+  width: 55%;
+  margin: 30px 0 0 30px;
+}
+
+.video-content:nth-child(2) {
+  font-size: 12px;
+  letter-spacing: 3.6px;
+  margin-bottom: 10px;
+}
+
+.video-content:nth-child(3) {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 108.92%;
+  margin-bottom: 14px;
+}
+
+.video-content:nth-child(4) {
+  font-size: 14px;
+  line-height: 108.92%;
+}
+
+.recommended {
+  min-width: 1184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 102px;
+}
+
+.recommended h2 {
+  margin-bottom: 48px;
+}
+
+.recommended h5 {
+  margin-bottom: 72px;
+}
+
+.recomm_photos {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.recomm_photo {
+  width: 284px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 18px;
+}
+
+.recomm_photo:nth-child(1) {
+  background-image: url(/img/recomm_photo/photo1.png);
+}
+
+.recomm_photo:nth-child(2) {
+  background-image: url(/img/recomm_photo/photo2.png);
+}
+
+.recomm_photo:nth-child(3) {
+  background-image: url(/img/recomm_photo/photo3.png);
+}
+
+.recomm_photo:nth-child(4) {
+  background-image: url(/img/recomm_photo/photo4.png);
+}
+
+.photo-content:nth-child(1) {
+  font-size: 27px;
+  font-weight: 900;
+  line-height: 108.92%;
+}
+
+.photo-content:nth-child(2) {
+  font-size: 14px;
+  line-height: 145.227%;
+}
+
+.bg-photo {
+  position: absolute;
+  opacity: 0.5;
 }
